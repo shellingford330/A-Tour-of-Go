@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if test $# -eq 1
+then
+	cat ~/Documents/go/bin/template.go > $1
+else
+	echo "(Error): Please set a file name."
+fi
